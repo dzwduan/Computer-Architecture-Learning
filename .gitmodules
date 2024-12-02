@@ -4,3 +4,9 @@
 [submodule "calab-gem5"]
 	path = calab-gem5
 	url = https://git.ustc.edu.cn/xyx17/calab-gem5.git
+[submodule "microbench"]
+	path = microbench
+	url = https://github.com/darchr/microbench.git
+[submodule "riscv-coremark"]
+	path = riscv-coremark
+	url = https://github.com/riscv-boom/riscv-coremark.git

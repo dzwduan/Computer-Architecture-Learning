@@ -12,13 +12,13 @@ SE_OR_FS=SE
 #   下面是 GEM5 的一些基本参数，包括 GEM5 的路径，架构，以及仿真模式
 #   如果有需要可以改一下
 GEM5_PATH=/home/data/ChenRuiyang/gem5
-ARCH=ARM
+ARCH=RISCV
 METHOD=fast
 
 ##  CPU 的模型以及 CPU 的部分参数，可以根据需求增补
 ##  做 test 时需要改一下
 CPU_PARM=\
-"--cpu-type O3_ARM_v7a_3 \
+"--cpu-type DerivO3CPU \
 --cpu-clock 2.5GHz \
 --num-cpu 1"
 

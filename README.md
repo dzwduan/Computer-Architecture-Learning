@@ -44,10 +44,21 @@
 1. https://gitee.com/nwpu-ercesi/nwpu-gem5-csarch
 1. https://git.ustc.edu.cn/xyx17/calab-gem5.git
 1. https://www.cs.sfu.ca/~ashriram/Courses/CS7ARCH/index.html
+1. https://polyarch.github.io/cs251a/
+1. https://segmentfault.com/a/1190000044728669
+1. https://www.gem5.org/documentation/gem5art/tutorials/spec-tutorial
 
 
+## Lab1 gem5运行microbench并分析perf counter
+1. git clone https://github.com/darchr/microbench.git
+1. make RISCV # need to change rv toolchain dir
+问题：官方tutorial给的microbench似乎和riscv常用的不一样
+尝试用 coremark ，具有同一版本
 
-## Lab1 gem5运行自定义程序并分析perf counter
+```
+cd riscv-coremark/coremark
+make ITERATIONS=10
+```
 
 ## gem5运行简单的simpoint
 
