@@ -1,0 +1,6 @@
+[submodule "nwpu-gem5-csarch"]
+	path = nwpu-gem5-csarch
+	url = https://gitee.com/nwpu-ercesi/nwpu-gem5-csarch
+[submodule "calab-gem5"]
+	path = calab-gem5
+	url = https://git.ustc.edu.cn/xyx17/calab-gem5.git

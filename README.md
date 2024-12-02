@@ -36,3 +36,8 @@
 ### simpoint_GEM5
 +   便于在 GEM5 内使用 simpoint 的自动化脚本.
 +   可以加速 GEM5 的模拟，在测试中可以将十数小时的程序在 60s 左右完成.
+
+## extra links
+
+1. https://gitee.com/nwpu-ercesi/nwpu-gem5-csarch
+1. https://git.ustc.edu.cn/xyx17/calab-gem5.git
