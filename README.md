@@ -50,20 +50,21 @@
 
 
 ## Lab1 gem5运行microbench并分析perf counter
-1. git clone https://github.com/darchr/microbench.git
-1. make RISCV # need to change rv toolchain dir
-问题：官方tutorial给的microbench似乎和riscv常用的不一样
-尝试用 coremark ，具有同一版本
 
-```
-cd riscv-coremark/coremark
-make ITERATIONS=10
-```
+[链接](notes/Lab1.md)
 
-## gem5运行简单的simpoint
+## Lab2 coremark simpoint save + restore
 
-## gem5 o3 restore simpoint
+[链接](notes/Lab2.md)
 
-## 深入理解o3设计思路
+## 入门o3处理器
 
 refer https://seanzw.github.io/posts/gem5-o3-backend/
+
+## spec cpu2006 simpoint 
+
+
+## 分析性能计数器等内容
+
+
+## 

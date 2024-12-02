@@ -45,3 +45,29 @@ make ITERATIONS=1
 ```
 python3 cal_stats.py -n
 ```
+
+
+## vscode自动补全
+```
+bear -- scons build/X86/gem5.fast -j 32
+mkdir .vscode
+touch settings.json
+echo {
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.arguments": [
+      "--compile-commands-dir=${workspaceFolder}/build/X86",
+      "--log=verbose",
+      "--pretty",
+      "--all-scopes-completion",
+      "--completion-style=bundled",
+      "--cross-file-rename",
+      "--header-insertion=iwyu",
+      "--header-insertion-decorators",
+      "--background-index",
+      "--clang-tidy",
+      "--clang-tidy-checks=cppcoreguidelines-*,performance-*,bugprone-*,portability-*,modernize-*,google-*",
+      "--pch-storage=disk"
+    ]
+  } > settings.json
+```
+

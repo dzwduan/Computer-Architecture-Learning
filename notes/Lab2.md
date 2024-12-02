@@ -1,5 +1,13 @@
 # coremark simpoint
 
+## 环境
+
+```
+git clone  https://github.com/dzwduan/SimPoint.3.2-fix
+cd SimPoint.3.2-fix
+make
+```
+
 ## 步骤
 +   采用 AtomicSimpleCPU 初始运行一遍程序，并生成 simpoint.bb.gz
 +   Simpoint 读取 simpoint.bb.gz，并生成划分结果以及权重文件
@@ -9,3 +17,6 @@
 
 
 ## 生成simpoint.bb.gz
+```
+bash sim_init.sh coremark # 需要修改configs/configs_coremark.sh部分配置
+```

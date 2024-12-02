@@ -10,3 +10,6 @@
 [submodule "riscv-coremark"]
 	path = riscv-coremark
 	url = https://github.com/riscv-boom/riscv-coremark.git
+[submodule "SimPoint.3.2-fix"]
+	path = SimPoint.3.2-fix
+	url = https://github.com/dzwduan/SimPoint.3.2-fix
