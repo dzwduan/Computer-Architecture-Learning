@@ -13,24 +13,23 @@ se : system call emulation , 仅模拟 core + mem ， 更快
 
 fs : full system simulation, 模拟 core + mem + I/O + 外设 ， 更详细	
 
-
-
 ## 运行方案
 
 fast + se 
 
 ```
+git clone https://github.com/riscv-boom/riscv-coremark.git
 cd riscv-coremark/coremark
 make ITERATIONS=1
 ```
-
-
 
 ## 运行命令
 
 1. 设置 要运行的config
 
 2. ```
+   cd /home/dzw/gem5
+   scons build/X86/gem5.fast -j 9
    ./build/X86/gem5.fast --outdir=coremark_out/normal \
                configs/deprecated/example/se.py --cpu-type DerivO3CPU --cpu-clock 3.1GHz \
                --num-cpu 1 --caches --l2cache --l1i_size 64kB --l1d_size 64kB \
@@ -41,3 +40,8 @@ make ITERATIONS=1
    ```
 
 获得config.ini + config.json + stats.json , 需要从中dump出来各项perf counter
+
+运行方式
+```
+python3 cal_stats.py -n
+```
