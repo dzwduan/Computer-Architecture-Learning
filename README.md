@@ -1,4 +1,6 @@
-## 介绍
+# gem5记录
+
+## 原始repo介绍
 +   这个仓库存的是在学习计算机体系结构时的学习资料以及写的代码，目录结构如下：
 
 ```
@@ -41,3 +43,16 @@
 
 1. https://gitee.com/nwpu-ercesi/nwpu-gem5-csarch
 1. https://git.ustc.edu.cn/xyx17/calab-gem5.git
+1. https://www.cs.sfu.ca/~ashriram/Courses/CS7ARCH/index.html
+
+
+
+## Lab1 gem5运行自定义程序并分析perf counter
+
+## gem5运行简单的simpoint
+
+## gem5 o3 restore simpoint
+
+## 深入理解o3设计思路
+
+refer https://seanzw.github.io/posts/gem5-o3-backend/
